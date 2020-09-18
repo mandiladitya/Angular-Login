@@ -3,30 +3,40 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt >
-					<img src="../assets/img/iums5.jpg" alt="IMG" style=""/>
+					<img src="../assets/img/iums10.jpg" alt="IMG" style="position:absolute"/>
 				</div>
 <!-- Input Fields & Form -->
 				<form class="login100-form validate-form" style="margin-top:-75px;margin-right:-85px;">
 					<span class="login100-form-title">
-						 Login <i class="fa fa-graduation-cap"></i>
+						 SignIn <i class="fa fa-user-graduate" style="opcaity:0.1"></i>
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" placeholder="Username" required>
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100 input-field" type="text" name="email" placeholder="Username" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					</div> -->
+					<div class="input-field col s6">
+				<i class="material-icons prefix">email</i>
+				 <input id="icon_prefix" type="text" class="validate" required style="  border-bottom: 1px solid #2471a3 ">
+				 <label for="icon_prefix">Username</label>
+			 </div>
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Password is required">
 						<input class="input100" type="password" name="pass" placeholder="Password"required>
-						<!-- <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span> -->
+						<!-- <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
-					</div>
+					</div> -->
+					<div class="input-field col s6">
+				<i class="material-icons prefix">check_circle</i>
+				 <input id="icon" type="password" class="validate" required style="  border-bottom: 1px solid #2471a3 ">
+				 <label for="icon">Password</label>
+			 </div>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
@@ -36,11 +46,9 @@
 					</div>
 
 					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
+
 						<b><a routerLink='../forgot'>
-							 Password?
+							Forgot Password?
 						</a></b>
 					</div>
 

@@ -124,6 +124,7 @@ iframe {
 
 .container-login100 {
   width: 100%;
+
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -139,7 +140,7 @@ margin-top:-10px;
 }
 
 .wrap-login100 {
-  width:1100px;
+  width:1100px;height:550px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -158,14 +159,14 @@ margin-top:-10px;
 /* Login PIC
 [  ]*/
 .login100-pic {
-  width: 416px;
-  height:100px;
+  width: 316px;
+
 
 }
 
 .login100-pic img {
-  max-width:200%;;
-  margin-top:-177px;margin-left:-105px;
+  max-width:53%;height:550px;
+  margin-top:-177px;margin-left:-25px;
 
 }
 
@@ -173,11 +174,11 @@ margin-top:-10px;
 /* Login input fields
 [  ]*/
 .login100-form {
-  width: 290px;
+  width: 350px;
 }
 
 .login100-form-title {
-  font-family: Poppins-Bold;
+  font-family: monospace;
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
@@ -190,9 +191,10 @@ margin-top:-10px;
 
 .wrap-input100 {
   position: relative;
-  width: 105%;
+  width: 100%;
   z-index: 1;
   margin-bottom: 10px;
+
 }
 
 .input100 {
@@ -200,12 +202,12 @@ margin-top:-10px;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
-
-  display: block;
-  width: 105%;
-  background: #e6e6e6;
+display:block;
+  width: 100%;
+  background:#e6e6e6;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 35px;
+
   padding: 0 30px 0 68px;
 }
 
@@ -243,7 +245,7 @@ margin-top:-10px;
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login100-form-btn {
-  width: 108%;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -274,7 +276,7 @@ margin-top:-10px;
   justify-content: center;
   align-items: center;
   padding: 0 25px;
-
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.19);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -322,7 +324,7 @@ margin-top:-10px;
   }
 
   .login100-form {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -330,4 +332,9 @@ margin-top:-10px;
   .wrap-login100 {
     padding: 100px 15px 33px 15px;
   }
+}
+
+/* NEW CSS*/
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
 }
