@@ -9,6 +9,7 @@
 * Symbol in Input field   [208 - 239]
 * Button in Login Container [241 - 283]
 *  RESPONSIVE MEDIA QUERIES [287 - 323]
+https://ak.picdn.net/shutterstock/videos/1032719948/thumb/1.jpg?ip=x480
 */
 
 /* Font family*/
@@ -136,14 +137,16 @@ iframe {
   align-items: center;
   padding: 15px;
 
-  /* background-color: #ecf0f1 ; */
-  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg');
+  background-color: #ecf0f1 ;
+  /* background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg'); */
 margin-top:-10px;
 }
 
 .wrap-login100 {
   width:1100px;height:550px;
-  background: #fff;
+  /* background: #fff; */
+
+  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg');
   border-radius: 10px;
   overflow: hidden;
 
@@ -177,11 +180,12 @@ margin-top:-10px;
 [  ]*/
 .login100-form {
   width: 350px;
+
 }
 
 .login100-form-title {
   font-family: monospace;
-  font-size: 24px;
+  font-size: 27px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -339,4 +343,7 @@ display:block;
 /* NEW CSS*/
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
 }
