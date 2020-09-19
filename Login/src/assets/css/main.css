@@ -135,7 +135,9 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: #ecf0f1 ;
+
+  /* background-color: #ecf0f1 ; */
+  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg');
 margin-top:-10px;
 }
 
