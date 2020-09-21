@@ -158,7 +158,7 @@ margin-top:-10px;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 177px 130px 33px 25px;
-  box-shadow: 0 170px 140px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)
+  box-shadow: 0 10px 20px white,0 20px 60px white;
 }
 
 /* Login PIC
@@ -264,13 +264,13 @@ display:block;
 
 .login100-form-btn {
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5;
   color: #fff;
   text-transform: uppercase;
   align-text:center;
-
-  width: 70%;
+margin-left:20px;
+  width: 60%;
   height: 50px;
   border-radius: 15px;
   background-color: #2471a3 ;
