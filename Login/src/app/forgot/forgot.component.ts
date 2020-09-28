@@ -12,5 +12,9 @@ export class ForgotComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+   yourfunc(e) {
+     if(e.target.checked){
+       alert("Hello");
+     }
+  };
 }
