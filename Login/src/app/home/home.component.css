@@ -1,1 +1,5 @@
 /* CSS PATH : /assets/css/main.css */
+#password + .glyphicon {
+  cursor: pointer;
+  pointer-events: all;
+}
