@@ -1,3 +1,4 @@
+```
 https://stackoverflow.com/questions/51552661/how-to-show-and-hide-password-when-click-on-eye-icon-using-jquery
 
 $(document).on('click', '.toggle-password', function() {
@@ -16,3 +17,4 @@ $(document).on('click', '.toggle-password', function() {
 <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
 
 </body>
+```
